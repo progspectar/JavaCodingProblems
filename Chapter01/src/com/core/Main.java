@@ -17,6 +17,13 @@ private static final String TEXT = "Test text";
         Map<Character, Integer> duplicatesV1 = Strings.countDuplicateCharactersV1(TEXT);
         System.out.println(Arrays.toString(duplicatesV1.entrySet().toArray()));
 
+        Map<String, Integer> duplicatesVCP1 = Strings.countDuplicateCharactersVCP1(TEXT);
+        System.out.println(Arrays.toString(duplicatesVCP1.entrySet().toArray()));
+
+        Map<Character, Long> duplicatesV2 = Strings.countDuplicateCharactersV2(TEXT);
+        System.out.println(Arrays.toString(duplicatesV2.entrySet().toArray()));
+
+
 
     }
 
